@@ -10,7 +10,7 @@ mp_drawing = mp.solutions.drawing_utils  # Drawing utilities
 mp_drawing_styles = mp.solutions.drawing_styles  # Drawing styles
 
 # Load your trained model
-model = load_model('C:\\Users\\jash\\Downloads\\action.h5')  
+model = load_model('action.h5')  
 
 def mediapipe_detection(image, model):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # COLOR CONVERSION BGR 2 RGB
